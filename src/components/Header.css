@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Open+Sans&family=Pacifico&family=Pinyon+Script&family=Poppins:wght@400;500&family=Rajdhani&display=swap");
+nav {
+  display: flex;
+  padding: 0 2rem;
+  justify-content: space-between;
+  border-bottom: 0.2px solid #d9d9d9;
+}
+.nav__logo img {
+  width: 70px;
+}
+.nav__items {
+  display: flex;
+  align-items: end;
+  padding: 1rem;
+}
+.nav__items .nav__genders {
+  display: flex;
+  gap: 1.5rem;
+}
+.nav__genders span {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.nav__cetagory ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav__cetagory ul li {
+  font-size: 1.1rem;
+  font-family: "Rajdhani", sans-serif;
+}
+.outlet {
+  color: #e32b2b;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.right__navItem {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-left: 2rem;
+}
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #eceff1;
+  padding: 0 10px;
+  border-radius: 1px;
+}
+.search i {
+  font-size: 1.5rem;
+}
+.search input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px 5px;
+  background: transparent;
+  color: #000;
+}
+
+.login i,
+.wishlist i,
+.cart i {
+  font-size: 1.5rem;
+}
