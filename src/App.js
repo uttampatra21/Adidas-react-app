@@ -6,6 +6,7 @@ import Men from "./components/Men";
 import Women from "./components/Women";
 import Kids from "./components/Kids";
 import Item from "./components/Item";
+import Outlet from "./components/Outlet";
 import { BrowserRouter, link, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -51,6 +52,17 @@ function App() {
           </>
         }
       />
+      {/* OUTLET */}
+      <Route
+        path="/Outlet"
+        element={
+          <>
+            <Header />
+            <Outlet />
+          </>
+        }
+      />
+
       {/* LOOKBOOK */}
       <Route
         path="/Lookbook"
