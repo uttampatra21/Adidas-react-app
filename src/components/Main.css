@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Montserrat:wght@300;700&family=Open+Sans&family=Pacifico&family=Pinyon+Script&family=Poppins:wght@400;500&family=Rajdhani:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Montserrat:wght@300;700&family=Open+Sans&family=Pacifico&family=Pinyon+Script&family=Poppins:wght@400;500&family=Rajdhani:wght@500&family=Sora:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Montserrat:wght@300;700&family=Open+Sans&family=Pacifico&family=Pinyon+Script&family=Poppins:wght@400;500&family=Rajdhani:wght@500&family=Roboto:wght@300;700&family=Sora:wght@600&display=swap");
+
 .discount__banner {
   padding: 1.2rem 1.5rem;
   text-align: center;
@@ -153,7 +155,7 @@
   width: 10px;
 }
 .whats__hot {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 .whats__hot > h1 {
   padding: 2rem 1rem;
@@ -166,7 +168,7 @@
 .container___1cZjP video,
 img,
 .container___1cZjP {
-  width: 380px;
+  width: 390px;
 }
 .hot__des {
   margin: 1rem 0;
@@ -186,4 +188,27 @@ img,
   color: #fff;
   padding: 0.1rem;
   transition: 0.2s;
+}
+.best__seller {
+  padding: 1rem;
+}
+.main__des {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 4rem 1rem;
+  background-color: #f5f5e5;
+  gap: 2rem;
+}
+.main__desh1 h1 {
+  font-size: 2rem;
+  font-family: "Sora", sans-serif;
+}
+.main__desBox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+.main__desBox p {
+  letter-spacing: 1px;
 }

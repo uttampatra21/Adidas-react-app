@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Open+Sans&family=Pacifico&family=Pinyon+Script&family=Poppins:wght@400;500&family=Rajdhani&display=swap");
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+}
 nav {
   display: flex;
   padding: 0 2rem;

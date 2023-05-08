@@ -1,7 +1,14 @@
 import React from "react";
-import "./Wshoes.css";
+import "./TopShoes.css";
 
-export default function Shoes({ title, image, price, discountPrice }) {
+export default function Shoes({
+  title,
+  image,
+  price,
+  discountPrice,
+  lifestyle,
+  status,
+}) {
   return (
     <div>
       <div className="wshoes__item">
@@ -17,8 +24,8 @@ export default function Shoes({ title, image, price, discountPrice }) {
         </div>
         <div className="shoe__description">
           <span className="shoe__title">{title}</span>
-          <span className="performance">Women Lifestyle</span>
-          <span className="new__shoes">new</span>
+          <span className="performance">{lifestyle}</span>
+          <span className="new__shoes">{status}</span>
         </div>
       </div>
     </div>

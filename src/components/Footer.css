@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Montserrat:wght@300;700&family=Open+Sans&family=Pacifico&family=Pinyon+Script&family=Poppins:wght@400;500&family=Rajdhani:wght@500&family=Raleway:wght@200&family=Roboto:wght@100&family=Sora:wght@600&display=swap");
+.footer__banner {
+  background-color: #ede734;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.footer__banner h1 {
+  font-size: 2rem;
+}
+.footer__banner a {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  font-weight: 600;
+}
+.footer__banner a i {
+  rotate: 180deg;
+  font-size: 2rem;
+}
+.footer__list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+.footer__list__con ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footer__list__con ul li {
+  font-size: 0.85rem;
+  color: #363535;
+  font-family: "Sora", sans-serif;
+}
+.footer__list__con ul h3 {
+  margin: 1rem 0;
+}
+.footer__copyright {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #282c31;
+  color: #fff;
+}
+.footer__terms {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.footer__terms a,
+.cpyright span {
+  color: #bebdbd;
+  font-size: 0.8rem;
+}
