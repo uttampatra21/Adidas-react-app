@@ -41,6 +41,9 @@
 .footer__list__con ul h3 {
   margin: 1rem 0;
 }
+.footer__list__con ul li a:hover {
+  text-decoration: underline;
+}
 .footer__copyright {
   text-align: center;
   padding: 1.5rem;
@@ -57,4 +60,7 @@
 .cpyright span {
   color: #bebdbd;
   font-size: 0.8rem;
+}
+.bxl-instagram {
+  font-size: 2rem;
 }

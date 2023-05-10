@@ -1,0 +1,15 @@
+.men__options {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.men__collections_item {
+  display: flex;
+  flex-direction: column;
+}
+.men__collections_item img {
+  width: 260px;
+}
+.relative {
+  position: relative;
+}

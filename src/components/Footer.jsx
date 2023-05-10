@@ -136,51 +136,32 @@ export default function Footer() {
               <br /> INFO
             </h3>
             <li>
-              <a href="#">Footwear</a>
+              <a href="#">About Us</a>
             </li>
             <li>
-              <a href="#">Clothing</a>
+              <a href="#">adidas stories</a>
             </li>
             <li>
-              <a href="#">Acccessories</a>
+              <a href="#">addidas Apps</a>
             </li>
             <li>
-              <a href="#">Outlet - Sale</a>
+              <a href="#">Entity Details</a>
             </li>
             <li>
-              <a href="#">New Arrivals</a>
+              <a href="#">Press</a>
             </li>
             <li>
-              <a href="#">Special Offer</a>
-            </li>
-            <li>
-              <a href="#">Last Sizes Left!</a>
+              <a href="#">Careers</a>
             </li>
           </ul>
         </div>
         <div className="footer__list__con">
           <ul>
-            <h3>PRODUCTS</h3>
+            <h3>FOLLOW US</h3>
             <li>
-              <a href="#">Footwear</a>
-            </li>
-            <li>
-              <a href="#">Clothing</a>
-            </li>
-            <li>
-              <a href="#">Acccessories</a>
-            </li>
-            <li>
-              <a href="#">Outlet - Sale</a>
-            </li>
-            <li>
-              <a href="#">New Arrivals</a>
-            </li>
-            <li>
-              <a href="#">Special Offer</a>
-            </li>
-            <li>
-              <a href="#">Last Sizes Left!</a>
+              <a href="#">
+                <i class="bx bxl-instagram"></i>
+              </a>
             </li>
           </ul>
         </div>
