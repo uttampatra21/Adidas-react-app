@@ -1,6 +1,9 @@
 import React from "react";
 import "./Men.css";
+
+import TopShoes from "./TopShoes";
 import { Link } from "react-router-dom";
+
 export default function Men() {
   return (
     <div className="men">
@@ -27,18 +30,19 @@ export default function Men() {
           </div>
         </div>
       </div>
+      {/* ================== */}
       <div className="men__options">
         <div className="men__collections_item">
-          {/* <a className="relative" href="#"> */}
-          <img
-            width="200"
-            src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/b6510edd6ff7495fbf3caf6300f51ec0_9366/courtbeat-court-lifestyle-shoes.jpg"
-            alt=""
-          />
-          <a href="#">
-            <strong>SNEAKERS</strong>
+          <a className="relative col" href="#">
+            <img
+              width="200"
+              src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/b6510edd6ff7495fbf3caf6300f51ec0_9366/courtbeat-court-lifestyle-shoes.jpg"
+              alt=""
+            />
+            <a className="absolute" href="#">
+              <strong>SNEAKERS</strong>
+            </a>
           </a>
-          {/* </a> */}
         </div>
         <div className="men__collections_item">
           <img
@@ -66,6 +70,151 @@ export default function Men() {
           <a href="#">
             <strong>TOPS</strong>
           </a>
+        </div>
+      </div>
+      {/* =================== */}
+      <div className="men__original">
+        <h1>MEN ORIGINALS</h1>
+        <div className="men__slider">
+          <TopShoes
+            image="https://assets.adidas.com/images/w_600,f_auto,q_auto/6817f59fa4ed4ab3acc96bf4ed8ab864_9366/Adicolor_70s_Monogram_Track_Pants_Black_IP6985_HM1.jpg"
+            title="Adicolor 70s Monogram Track Pants"
+            price="₹2 209.00"
+            discountPrice="₹59.50"
+            lifestyle="Men Lifestyle"
+            status="new"
+          />
+          <TopShoes
+            image="https://assets.adidas.com/images/w_600,f_auto,q_auto/6817f59fa4ed4ab3acc96bf4ed8ab864_9366/Adicolor_70s_Monogram_Track_Pants_Black_IP6985_HM1.jpg"
+            title="Adicolor 70s Monogram Track Pants"
+            price="₹2 209.00"
+            discountPrice="₹59.50"
+            lifestyle="Men Lifestyle"
+            status="new"
+          />
+          <TopShoes
+            image="https://assets.adidas.com/images/w_600,f_auto,q_auto/6817f59fa4ed4ab3acc96bf4ed8ab864_9366/Adicolor_70s_Monogram_Track_Pants_Black_IP6985_HM1.jpg"
+            title="Adicolor 70s Monogram Track Pants"
+            price="₹2 209.00"
+            discountPrice="₹59.50"
+            lifestyle="Men Lifestyle"
+            status="new"
+          />
+          <TopShoes
+            image="https://assets.adidas.com/images/w_600,f_auto,q_auto/6817f59fa4ed4ab3acc96bf4ed8ab864_9366/Adicolor_70s_Monogram_Track_Pants_Black_IP6985_HM1.jpg"
+            title="Adicolor 70s Monogram Track Pants"
+            price="₹2 209.00"
+            discountPrice="₹59.50"
+            lifestyle="Men Lifestyle"
+            status="new"
+          />
+          <TopShoes
+            image="https://assets.adidas.com/images/w_600,f_auto,q_auto/6817f59fa4ed4ab3acc96bf4ed8ab864_9366/Adicolor_70s_Monogram_Track_Pants_Black_IP6985_HM1.jpg"
+            title="Adicolor 70s Monogram Track Pants"
+            price="₹2 209.00"
+            discountPrice="₹59.50"
+            lifestyle="Men Lifestyle"
+            status="new"
+          />
+          <TopShoes
+            image="https://assets.adidas.com/images/w_600,f_auto,q_auto/6817f59fa4ed4ab3acc96bf4ed8ab864_9366/Adicolor_70s_Monogram_Track_Pants_Black_IP6985_HM1.jpg"
+            title="Adicolor 70s Monogram Track Pants"
+            price="₹2 209.00"
+            discountPrice="₹59.50"
+            lifestyle="Men Lifestyle"
+            status="new"
+          />
+        </div>
+      </div>
+      {/* =================== */}
+      <div className="esentials">
+        <h1>ESSENTIALS</h1>
+        <div className="esentials__slider">
+          <div className="esentail__container">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enIN/Images/in-ss23-adimatic-hp-c-image_tcm209-1023154.jpg"
+              alt=""
+            />
+            <div className="esentail__container__details">
+              <h4>ADDIDAS X GUCCI</h4>
+              <p>
+                Sartorial streetwear meets sports heritage as
+                <br /> footwear icons of adidas and Gucci unite.
+              </p>
+              <p>Shop the collection now.</p>
+              <a href="#">
+                <strong>SHOP NOW</strong>
+              </a>
+            </div>
+          </div>
+          <div className="esentail__container">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enIN/Images/ss23-gucci-launch-non-confirmed-hp-tc-d_tcm209-1008683.jpg"
+              alt=""
+            />
+            <div className="esentail__container__details">
+              <h4>ADDIDAS X GUCCI</h4>
+              <p>
+                Sartorial streetwear meets sports heritage as
+                <br /> footwear icons of adidas and Gucci unite.
+              </p>
+              <p>Shop the collection now.</p>
+              <a href="#">
+                <strong>SHOP NOW</strong>
+              </a>
+            </div>
+          </div>
+          <div className="esentail__container">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enIN/Images/ss23-gucci-launch-non-confirmed-hp-tc-d_tcm209-1008683.jpg"
+              alt=""
+            />
+            <div className="esentail__container__details">
+              <h4>ADDIDAS X GUCCI</h4>
+              <p>
+                Sartorial streetwear meets sports heritage as
+                <br /> footwear icons of adidas and Gucci unite.
+              </p>
+              <p>Shop the collection now.</p>
+              <a href="#">
+                <strong>SHOP NOW</strong>
+              </a>
+            </div>
+          </div>
+          <div className="esentail__container">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enIN/Images/ss23-gucci-launch-non-confirmed-hp-tc-d_tcm209-1008683.jpg"
+              alt=""
+            />
+            <div className="esentail__container__details">
+              <h4>ADDIDAS X GUCCI</h4>
+              <p>
+                Sartorial streetwear meets sports heritage as
+                <br /> footwear icons of adidas and Gucci unite.
+              </p>
+              <p>Shop the collection now.</p>
+              <a href="#">
+                <strong>SHOP NOW</strong>
+              </a>
+            </div>
+          </div>
+          <div className="esentail__container">
+            <img
+              src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enIN/Images/ss23-gucci-launch-non-confirmed-hp-tc-d_tcm209-1008683.jpg"
+              alt=""
+            />
+            <div className="esentail__container__details">
+              <h4>ADDIDAS X GUCCI</h4>
+              <p>
+                Sartorial streetwear meets sports heritage as
+                <br /> footwear icons of adidas and Gucci unite.
+              </p>
+              <p>Shop the collection now.</p>
+              <a href="#">
+                <strong>SHOP NOW</strong>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

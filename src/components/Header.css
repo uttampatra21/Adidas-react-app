@@ -27,19 +27,34 @@ nav {
   font-size: 0.9rem;
   font-weight: 600;
 }
+.nav__genders span:hover {
+  padding: 0.8rem 0;
+  border-bottom: 3px solid rgb(3, 3, 3);
+  border-radius: 3px;
+}
 .nav__cetagory ul {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-.nav__cetagory ul li {
+.nav__cetagory ul li span {
   font-size: 1.1rem;
   font-family: "Rajdhani", sans-serif;
 }
-.outlet {
+.nav__cetagory ul li span:hover {
+  border-bottom: 3px solid rgb(0, 0, 0);
+  padding: 0.8rem 0;
+  border-radius: 3px;
+}
+.outlet span {
   color: #e32b2b;
   font-weight: 600;
   letter-spacing: 1px;
+}
+.outlet span:hover {
+  padding: 0.8rem 0;
+  border-bottom: 3px solid red;
+  border-radius: 3px;
 }
 .right__navItem {
   display: flex;

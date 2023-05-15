@@ -1,15 +1,62 @@
 .men__options {
   display: flex;
-  justify-content: center;
   gap: 1rem;
+  padding: 2rem;
 }
-.men__collections_item {
+.men __collections_item {
   display: flex;
   flex-direction: column;
 }
 .men__collections_item img {
-  width: 260px;
+  width: 280px;
 }
-.relative {
-  position: relative;
+
+/* .absolute {
+  position: absolute;
+  bottom: 10px;
+  left: 7rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+} */
+
+.men__original {
+  margin: 2rem 0;
+}
+.men__original h1 {
+  padding: 2rem;
+}
+.men__slider {
+  margin: 2rem;
+  display: flex;
+  gap: 1rem;
+  overflow-y: scroll;
+  padding: 1rem 0;
+}
+.men__slider::-webkit-scrollbar {
+  width: 0px;
+}
+.esentials {
+  margin: 2rem;
+}
+.esentials__slider {
+  padding: 2rem 0;
+  display: flex;
+  gap: 1rem;
+  overflow-x: scroll;
+}
+.esentials__slider::-webkit-scrollbar {
+  width: 0;
+}
+.esentail__container {
+  width: 390px;
+}
+.esentail__container__details {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.esentail__container__details p {
+  font-size: 14px;
+  /* font-family: ; */
 }

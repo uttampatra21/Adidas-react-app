@@ -91,9 +91,10 @@
   gap: 1rem;
   overflow-y: scroll;
   scroll-behavior: smooth;
+  padding: 1rem;
 }
 .shoes__items::-webkit-scrollbar {
-  width: 10px;
+  width: 0px;
 }
 .shoe_collection__cetagory {
   margin: 2rem 0;
@@ -150,9 +151,10 @@
   display: flex;
   gap: 1rem;
   overflow-x: scroll;
+  padding: 1rem 0;
 }
 .shoe__slider::-webkit-scrollbar {
-  width: 10px;
+  width: 0px;
 }
 .whats__hot {
   padding: 0 1rem;

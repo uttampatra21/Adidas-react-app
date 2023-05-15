@@ -7,6 +7,9 @@ a {
   text-decoration: none;
   color: #000;
 }
+.bx-heart {
+  cursor: pointer;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

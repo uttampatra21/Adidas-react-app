@@ -36,16 +36,24 @@ export default function Header() {
           <div className="nav__cetagory">
             <ul>
               <Link to="/Sport">
-                <li>SPORT</li>
+                <li>
+                  <span>SPORT</span>
+                </li>
               </Link>
               <Link to="/Brands">
-                <li>BRANDS</li>
+                <li>
+                  <span>BRANDS</span>
+                </li>
               </Link>
               <Link to="/Collection">
-                <li>COLLECTIONS</li>
+                <li>
+                  <span>COLLECTIONS</span>
+                </li>
               </Link>
               <Link to="/Outlet">
-                <div className="outlet">OUTLET</div>
+                <div className="outlet">
+                  <span>OUTLET</span>
+                </div>
               </Link>
             </ul>
           </div>

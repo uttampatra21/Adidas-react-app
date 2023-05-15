@@ -7,6 +7,7 @@ import Women from "./components/Women";
 import Kids from "./components/Kids";
 import Item from "./components/Item";
 import Outlet from "./components/Outlet";
+import Footer from "./components/Footer";
 import { BrowserRouter, link, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <>
             <Header />
             <Men />
+            <Footer />
           </>
         }
       />
