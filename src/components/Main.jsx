@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.css";
 import Shoes from "./Shoes";
-import TopShoes from "./TopShoes";
+import TopShoes from "./MediamItems";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 

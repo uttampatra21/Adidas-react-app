@@ -1,5 +1,5 @@
 import React from "react";
-import "./TopShoes.css";
+import "./MediamItems.css";
 
 export default function Shoes({
   title,
@@ -9,13 +9,6 @@ export default function Shoes({
   lifestyle,
   status,
 }) {
-  const heart = document.querySelectorAll("#heart");
-  const love = () => {
-    heart.addEventListner("click", () => {
-      alert("Click");
-    });
-  };
-  love();
   return (
     <div>
       <div className="wshoes__item">

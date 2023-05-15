@@ -11,14 +11,6 @@
   width: 280px;
 }
 
-/* .absolute {
-  position: absolute;
-  bottom: 10px;
-  left: 7rem;
-  font-weight: 600;
-  letter-spacing: 1px;
-} */
-
 .men__original {
   margin: 2rem 0;
 }
@@ -48,7 +40,7 @@
   width: 0;
 }
 .esentail__container {
-  width: 390px;
+  width: 380px;
 }
 .esentail__container__details {
   padding: 1rem 0;
@@ -59,4 +51,19 @@
 .esentail__container__details p {
   font-size: 14px;
   /* font-family: ; */
+}
+.esentail__container__details p {
+  font-size: 0.9rem;
+  font-family: "poppins";
+}
+.esentail__container__details a {
+  text-decoration: underline;
+}
+.esentail__container__details a strong:hover {
+  background-color: black;
+  padding: 1px;
+  color: #fff;
+}
+.best__of__addidas {
+  padding: 1rem;
 }
