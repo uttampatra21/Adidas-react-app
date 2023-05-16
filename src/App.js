@@ -8,6 +8,7 @@ import Kids from "./components/Kids";
 import Item from "./components/Item";
 import Outlet from "./components/Outlet";
 import Footer from "./components/Footer";
+import Wishlist from "./components/Wishlist";
 import { BrowserRouter, link, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -61,6 +62,18 @@ function App() {
           <>
             <Header />
             <Outlet />
+          </>
+        }
+      />
+
+      {/* WISHLIST */}
+      <Route
+        path="/Wishlist"
+        element={
+          <>
+            <Header />
+            <Wishlist />
+            <Footer />
           </>
         }
       />

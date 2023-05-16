@@ -228,6 +228,60 @@ export default function Men() {
             discountPrice="₹39.00"
             lifestyle="Originals"
           />
+
+          <MidItem
+            image="https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/931cc40021fc4caabd68ae6001317765_9366/HD3550_21_model.jpg"
+            title="M FR T"
+            price="1 799.00"
+            discountPrice="₹120.00"
+            lifestyle="Performence"
+          />
+
+          <MidItem
+            image="https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/931cc40021fc4caabd68ae6001317765_9366/HD3550_21_model.jpg"
+            title="M FR T"
+            price="1 799.00"
+            discountPrice="₹120.00"
+            lifestyle="Performence"
+          />
+
+          <MidItem
+            image="https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/931cc40021fc4caabd68ae6001317765_9366/HD3550_21_model.jpg"
+            title="M FR T"
+            price="1 799.00"
+            discountPrice="₹120.00"
+            lifestyle="Performence"
+          />
+
+          <MidItem
+            image="https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/931cc40021fc4caabd68ae6001317765_9366/HD3550_21_model.jpg"
+            title="M FR T"
+            price="1 799.00"
+            discountPrice="₹120.00"
+            lifestyle="Performence"
+          />
+
+          <MidItem
+            image="https://assets.adidas.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/931cc40021fc4caabd68ae6001317765_9366/HD3550_21_model.jpg"
+            title="M FR T"
+            price="1 799.00"
+            discountPrice="₹120.00"
+            lifestyle="Performence"
+          />
+        </div>
+      </div>
+      {/* =================== */}
+      <div className="men__bottom__description">
+        <h1>MEN’S CLOTHING & SHOES</h1>
+        <div>
+          As a creator, you look for ways to excel and express yourself when and
+          where you can, from reaching for that last rep to evolving your
+          streetwear style. Log miles or tear down the baseline in men's shoes
+          with responsive cushioning. Rep an athletic style off the field in
+          lifestyle apparel born of sport heritage. From athletes to streetwear
+          enthusiasts, adidas men’s clothing and shoes exist to let you go
+          harder, dig deeper, and get the most out of yourself, from the pitch
+          to the street to the road less traveled.
         </div>
       </div>
     </div>
