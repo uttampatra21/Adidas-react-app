@@ -1,0 +1,22 @@
+.poproducts__contain img {
+  width: 250px;
+}
+.details > span {
+  font-size: 0.9rem;
+  color: rgb(70, 71, 72);
+}
+.details {
+  padding: 10px;  
+}
+.details > span {
+  margin: 1rem;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+.poproducts__contain {
+  width: 250px;
+}

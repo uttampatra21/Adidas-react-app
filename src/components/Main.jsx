@@ -6,6 +6,12 @@ import Footer from "./Footer";
 import { Link } from "react-router-dom";
 
 export default function Main({}) {
+  const close = () => {
+    console.log("close");
+    const discount__banner =
+      document.getElementsByClassName("discount__banner");
+    discount__banner.style.display = "none";
+  };
   return (
     <div>
       <div className="discount__banner">
@@ -13,7 +19,7 @@ export default function Main({}) {
         <Link to="/Outlet">
           <span>SHOP NOW</span>
         </Link>
-        <i class="bx bx-x" id="close"></i>
+        <i class="bx bx-x" id="close" onClick={close}></i>
       </div>
       {/* ===================== */}
       <div className="banner__two banner__img">
